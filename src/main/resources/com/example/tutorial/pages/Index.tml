@@ -4,6 +4,7 @@
     <p>
         I'm thinking of a number between one and ten ...
     </p>
+    <!--hier wird die methode  -->
     <p>
         <t:actionlink t:id="start" class="btn btn-primary">start guessing</t:actionlink>
     </p>

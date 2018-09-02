@@ -7,6 +7,10 @@ import org.apache.tapestry5.annotations.Property;
 
 public class Guess {
 
+    /*
+    The property anntotation creates getters + setters for tapestry
+    to make usage of the POJO within .tml pages. --> ${target} gets the value of target.
+     */
     @Property
     @Persist
     private int target, guessCount;
